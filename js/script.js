@@ -5,3 +5,8 @@ console.log ('ciao' + name + secondname)
 
 let color = prompt('inserisci il tuo colore preferito') //string - null
 console.log ('il tuo colore preferito è il' + color)
+ 
+let randomfloat = Math.random() //number
+
+const passward = name + secondname + color + randomfloat //string
+console.log ('la tua passward è :' + passward)
